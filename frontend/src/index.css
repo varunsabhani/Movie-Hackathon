@@ -1,0 +1,11 @@
+#request {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#form {
+  width: 65%;
+  background-color: rgb(237, 237, 237);
+}
