@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">ABC</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,10 +25,10 @@ export default function Navbar() {
                 <NavLink className="nav-link disabled" to="/mymovies">My Movies</NavLink>
               </li>
             </ul>
-            {/* <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-outline-success" type="submit">Search</button>
-            </form> */}
+            <form className="d-flex">
+              {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> */}
+              <button className="btn btn-outline-success mx-2" type="button">Log In</button>
+            </form>
           </div>
         </div>
       </nav>

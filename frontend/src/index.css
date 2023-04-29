@@ -1,11 +1,29 @@
-#request {
+.align {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
 #form {
   width: 65%;
-  background-color: rgb(237, 237, 237);
+  background-color: rgb(248, 233, 253);
+}
+
+#card {
+  width: 100%;
+  background-color: rgb(248, 233, 253);
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+  margin-right: 24px;
+}
+
+.bg {
+  background-color: rgb(13,202,240);
+  height: 100%;
 }
